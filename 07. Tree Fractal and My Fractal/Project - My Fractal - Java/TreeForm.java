@@ -129,6 +129,9 @@ public class TreeForm {
         drawTree_1(g2d, koef, x2, y2, angle + 30, level - 1);
     }
 
+    
+    //My Fractal
+    
     private void drawSidesOfFractal(Graphics2D g2d, int length, double x1, double y1, double x2, double y2, int angle, int level) {
 
         if (level == 0){
